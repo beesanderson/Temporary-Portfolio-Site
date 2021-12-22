@@ -70,7 +70,7 @@ h1 {
     font-weight: 00;
     font-size: 3rem;
     text-align: center;
-    margin: 3em auto;
+    /* margin: 3em auto; */
     color: #797878;
 }
 
@@ -81,9 +81,21 @@ a {
     font-weight: 600;
 }
 
+header {
+    background: hsla(0, 0%, 6%, 0.64);
+    background: #171717;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
 main {
     margin: 0 auto;
     width: 90%;
+    color: #a8a7a7;
+}
+
+main a {
+    color: #a8a7a7;
 }
 
 img {
@@ -115,10 +127,6 @@ footer a:focus {
     font-size: .90rem;
 }
 
-/* footer:hover .temp-text {
-    color: yellow;
-    margin-bottom: 10px;
-} */
 
 
 
@@ -148,59 +156,22 @@ footer a:focus {
     font-size: 2.5rem;
 }
 
-.section-default,
-.section-one a {
-    color: #555454;
-    text-align: center;
-    /* background: hsla(194, 30%, 60%, 0.5); */
-    padding: 2em;
-    margin: 4em auto;
-    border-radius: 20px;
-    /* background: #616161; */
-    /* background: #141414; */
-    /* background: hsla(194, 83%, 60%, 0.5); */
-}
-
-
-.section-one:hover a {
-    color: #a8a7a7;
-    
-}
-
-.section-two {
-    color: #797878;
-}
-
-.section-two h2 {
-    font-size: 2em;
-    padding: 1.5em 0;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-}
-
-.section-two h2:hover {
-    background: #141414;
-    border-radius: 20px;
-}
-
-.section-two p {
+.hero ol .ol-live {
     font-size: 1.5rem;
+    margin: .25em 0;
 }
 
-.section-two ol {
-    margin-left: 0em;
-    padding: 0 2.5em;
+.hero ul li {
+    margin: 1em 0;
 }
 
-.section-two ol li {
-    padding-top: .75em;
+.hero ul li a {
+    padding: 1em .5em;
 }
 
-.section-two li {
-    font-size: 1rem;
+.hero ol a:hover {
+    color: #56bddc;
 }
-
 
 
 
@@ -227,8 +198,29 @@ footer a:focus {
     margin: 0 auto;
     width: 90%;
 }
+
+.content {
+    margin-bottom: 2em;
+}
+
+
+
 /* ----------- Specific Layout Classes -----------  */
 
+@media (min-width: 400px) {
+    header {
+    background: hsla(0, 0%, 6%, 0.64);
+    background: #171717;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
 
 
 
