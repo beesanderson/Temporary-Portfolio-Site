@@ -88,14 +88,40 @@ header {
     padding-bottom: 6em;
 }
 
+header a {
+    color: #144f61;
+    color: #171717;
+    color: #797878;
+    position: absolute;
+    top: 0;
+    padding: 1em;
+    font-size: 1.5rem;
+    margin: .25em;
+}
+
+header a:hover {
+    background: #797878;
+    color: #171717;
+    border-radius: 50%;;
+}
+
 main {
     margin: 0 auto;
     width: 90%;
     color: #a8a7a7;
 }
 
+main p span {
+    font-weight: 700;
+
+}
+
 main a {
     color: #a8a7a7;
+}
+
+main a:focus {
+    color: #144f61;
 }
 
 img {
@@ -156,6 +182,8 @@ footer a:focus {
     font-size: 2.5rem;
 }
 
+
+
 .hero ol .ol-live {
     font-size: 1.5rem;
     margin: .25em 0;
@@ -172,6 +200,7 @@ footer a:focus {
 .hero ol a:hover {
     color: #56bddc;
 }
+
 
 
 
